@@ -32,7 +32,7 @@ Syntactical has built in functions. Some of them I will referance from their Pyt
 
 This might not look like many, but it is not including the other features in the language.
 
-***THIS PAGE IS NOT FINISHED*** 
+***THIS SECTION IS NOT FINISHED*** 
 
 # Modules
 
@@ -56,4 +56,4 @@ To add modules to your Syntactical file, use the `use` statement in your code. T
 - pynput
 - pick
 
-***THIS PAGE IS NOT FINISHED***
+***THIS SECTION IS NOT FINISHED***
