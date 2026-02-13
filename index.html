@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/global.css">
+
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+
+    <title>Syntactical Docs</title>
+  </head>
+  <body>
+
+    <div class="sidenav">
+      <a href="#introduction">Introduction</a>
+      <a href="#installation">Installation</a>
+      <a href="#builtin-functions">Builtin Functions</a>
+      <a href="#modules">Modules</a>
+    </div>
+
+    <!-- Page content -->
+    <div class="main">
+      <h1 class="pagetitle">Syntactical Docs</h1>
+      <p>If this page does not load properly, view it without styling <a target="_blank" href="/plain.html">here</a>.</p>
+
+      <div id="main-container"></div>
+
+      <script>
+        fetch('/plain.html')
+          .then(response => response.text())
+          .then(html => {
+            document.getElementById('main-container').innerHTML = html;
+          });
+      </script>
+
+    </div>
+
+  </body>
+</html>
