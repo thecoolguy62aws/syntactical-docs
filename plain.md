@@ -22,6 +22,7 @@ The PyPi page for Syntactical can be found [here](https://pypi.org/project/synta
 # Builtin Functions
 
 Syntactical has built in functions. Some of them I will referance from their Python alternatives. Here's all the functions and what they do:
+
 - `print()`, this function is not exactly like Python's `print()`. The only difference is that it doesn't make a newline after printing.
 - `println()` is exactly the same as Python's `print()`
 - `input()` is exactly the same as Python's `input()`
@@ -37,6 +38,7 @@ This might not look like many, but it is not including the other features in the
 # Modules
 
 To add modules to your Syntactical file, use the `use` statement in your code. The `use` statement works exactly like Python's `import` statement. The `from` statement can also be used like in Python (except replace `import` with `use`). Here's a full list of the current supported modules in Syntactical:
+
 - sys
 - argparse
 - os
