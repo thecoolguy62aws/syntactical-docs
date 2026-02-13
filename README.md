@@ -1,0 +1,2 @@
+# Syntactical Docs
+This is the GitHub repo for the Syntactical docs. If you are looking for the GitHub repo of the language itself, go [here](https://github.com/thecoolguy62aws/syntactical). To see the docs go [here](https://syntactical.cool62.net).
