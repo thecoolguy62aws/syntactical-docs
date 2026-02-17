@@ -13,7 +13,7 @@ To install Syntactical, follow these steps depending on your package manager:
 2. Type in: `pip install syntactical` (change command accordingly if you use `pip3`), then press enter.
 3. Syntactical will be installed on your machine.
 4. You can now use Syntactical with the `syn` or `syntactical` commands in your terminal.
-5. If a new version of Syntactical gets released and you want to install it, type this command in your terminal: `pip install --upgrade syntactical`, and press enter.
+5. If a new version of Syntactical gets released and you want to install it, type this command in your terminal: `python -m pip install --upgrade syntactical` (change command accordingly if you use `python3` and/or `pip3`), and press enter.
 
 **Suggestion**: When using Syntactical, it's recomended to use Visual Studio Code with the [Syntactical extension](https://marketplace.visualstudio.com/items?itemName=thecoolguy62aws.syntactical).
 
