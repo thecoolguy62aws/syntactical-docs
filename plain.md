@@ -2,13 +2,14 @@
 
 Syntactical is a programming language. It's not a compiler or a interpreter. Instead, it's a transpiler. It transpiles the code you write into Python, then runs it.
 
-***THIS SECTION IS NOT FINISHED***
+**_THIS SECTION IS NOT FINISHED_**
 
 # Installation
 
 To install Syntactical, follow these steps depending on your package manager:
 
 ## pip
+
 1. Open a terminal.
 2. Type in: `pip install syntactical` (change command accordingly if you use `pip3`), then press enter.
 3. Syntactical will be installed on your machine.
@@ -27,13 +28,15 @@ Syntactical has built in functions. Some of them I will referance from their Pyt
 - `println()` is exactly the same as Python's `print()`
 - `input()` is exactly the same as Python's `input()`
 - `system()` runs a command on the user's operating system. When using this there will only be support for one OS (unless two OS's support one command). The command should be one string (with the arguments in the same string).
-- `json_encode()` is exactly the same as Python's `json.dumps()`
-- `json_decode()` is exactly the same as Python's `json.loads()`
+- `json_encodes()` is exactly the same as Python's `json.dumps()`
+- `json_decodes()` is exactly the same as Python's `json.loads()`
+- `json_encode()` is exactly the same as Python's `json.dump()`
+- `json_decode()` is exactly the same as Python's `json.load()`
 - Some other functions may be included that are not here yet.
 
 This might not look like many, but it is not including the other features in the language.
 
-***THIS SECTION IS NOT FINISHED*** 
+**_THIS SECTION IS NOT FINISHED_**
 
 # Modules
 
@@ -58,4 +61,4 @@ To add modules to your Syntactical file, use the `use` statement in your code. T
 - pynput
 - pick
 
-***THIS SECTION IS NOT FINISHED***
+**_THIS SECTION IS NOT FINISHED_**
