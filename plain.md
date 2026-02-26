@@ -62,3 +62,7 @@ To add modules to your Syntactical file, use the `use` statement in your code. T
 - pick
 
 **_THIS SECTION IS NOT FINISHED_**
+
+
+# Info
+To view the source code, markdown, info, and license of this web page go [here](https://github.com/thecoolguy62aws/syntactical-docs/).
