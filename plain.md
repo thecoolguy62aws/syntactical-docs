@@ -40,26 +40,7 @@ This might not look like many, but it is not including the other features in the
 
 # Modules
 
-To add modules to your Syntactical file, use the `use` statement in your code. The `use` statement works exactly like Python's `import` statement. The `from` statement can also be used like in Python (except replace `import` with `use`). Here's a full list of the current supported modules in Syntactical (may be out of date):
-
-- sys
-- argparse
-- os
-- requests
-- pathlib
-- numpy
-- json
-- datetime
-- re
-- matplotlib
-- django
-- flask
-- pygame
-- tkinter
-- time
-- cryptography
-- pynput
-- pick
+To add modules to your Syntactical file, use the `use` statement in your code. The `use` statement works like Python's `import` and imports modules you installed with pip. A Python venv can be used.
 
 **_THIS SECTION IS NOT FINISHED_**
 
